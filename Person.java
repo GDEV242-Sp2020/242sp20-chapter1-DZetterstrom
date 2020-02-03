@@ -167,7 +167,11 @@ public class Person
         color = newColor;
         draw();
     }
-
+    
+    public void setPosition(int xPos, int yPos){
+            xPosition = xPos;
+            yPosition = yPos;
+    }
     /**
      * Draw the person with current specifications on screen.
      */

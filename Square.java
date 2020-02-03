@@ -164,6 +164,11 @@ public class Square
         color = newColor;
         draw();
     }
+    
+    public void setPosition(int xPos, int yPos){
+        xPosition = xPos;
+        yPosition = yPos;
+    }
 
     /**
      * Draw the square with current specifications on screen.

@@ -167,7 +167,10 @@ public class Triangle
         color = newColor;
         draw();
     }
-
+    public void setPosition(int xPos, int yPos){
+        xPosition = xPos;
+        yPosition = yPos;
+    }
     /**
      * Draw the triangle with current specifications on screen.
      */

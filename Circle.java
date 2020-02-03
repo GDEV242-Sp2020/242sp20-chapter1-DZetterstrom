@@ -164,6 +164,11 @@ public class Circle
         color = newColor;
         draw();
     }
+    
+    public void setPosition(int xPos, int yPos){
+        xPosition = xPos;
+        yPosition = yPos;
+    }
 
     /**
      * Draw the circle with current specifications on screen.
